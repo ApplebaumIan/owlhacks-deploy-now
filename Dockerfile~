@@ -1,0 +1,1152 @@
+gConfigurator.php
+ delete mode 100644 vendor/symfony/routing/Loader/Configurator/Traits/AddTrait.php
+  delete mode 100644 vendor/symfony/routing/Loader/Configurator/Traits/HostTrait.php
+   delete mode 100644 vendor/symfony/routing/Loader/Configurator/Traits/LocalizedRouteTrait.php
+    delete mode 100644 vendor/symfony/routing/Loader/Configurator/Traits/PrefixTrait.php
+     delete mode 100644 vendor/symfony/routing/Loader/Configurator/Traits/RouteTrait.php
+      delete mode 100644 vendor/symfony/routing/Loader/ContainerLoader.php
+       delete mode 100644 vendor/symfony/routing/Loader/DirectoryLoader.php
+        delete mode 100644 vendor/symfony/routing/Loader/GlobFileLoader.php
+	 delete mode 100644 vendor/symfony/routing/Loader/ObjectLoader.php
+	  delete mode 100644 vendor/symfony/routing/Loader/PhpFileLoader.php
+	   delete mode 100644 vendor/symfony/routing/Loader/Psr4DirectoryLoader.php
+	    delete mode 100644 vendor/symfony/routing/Loader/XmlFileLoader.php
+	     delete mode 100644 vendor/symfony/routing/Loader/YamlFileLoader.php
+	      delete mode 100644 vendor/symfony/routing/Loader/schema/routing/routing-1.0.xsd
+	       delete mode 100644 vendor/symfony/routing/Matcher/CompiledUrlMatcher.php
+	        delete mode 100644 vendor/symfony/routing/Matcher/Dumper/CompiledUrlMatcherDumper.php
+		 delete mode 100644 vendor/symfony/routing/Matcher/Dumper/CompiledUrlMatcherTrait.php
+		  delete mode 100644 vendor/symfony/routing/Matcher/Dumper/MatcherDumper.php
+		   delete mode 100644 vendor/symfony/routing/Matcher/Dumper/MatcherDumperInterface.php
+		    delete mode 100644 vendor/symfony/routing/Matcher/Dumper/StaticPrefixCollection.php
+		     delete mode 100644 vendor/symfony/routing/Matcher/ExpressionLanguageProvider.php
+		      delete mode 100644 vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php
+		       delete mode 100644 vendor/symfony/routing/Matcher/RedirectableUrlMatcherInterface.php
+		        delete mode 100644 vendor/symfony/routing/Matcher/RequestMatcherInterface.php
+			 delete mode 100644 vendor/symfony/routing/Matcher/TraceableUrlMatcher.php
+			  delete mode 100644 vendor/symfony/routing/Matcher/UrlMatcher.php
+			   delete mode 100644 vendor/symfony/routing/Matcher/UrlMatcherInterface.php
+			    delete mode 100644 vendor/symfony/routing/README.md
+			     delete mode 100644 vendor/symfony/routing/RequestContext.php
+			      delete mode 100644 vendor/symfony/routing/RequestContextAwareInterface.php
+			       delete mode 100644 vendor/symfony/routing/Requirement/EnumRequirement.php
+			        delete mode 100644 vendor/symfony/routing/Requirement/Requirement.php
+				 delete mode 100644 vendor/symfony/routing/Route.php
+				  delete mode 100644 vendor/symfony/routing/RouteCollection.php
+				   delete mode 100644 vendor/symfony/routing/RouteCompiler.php
+				    delete mode 100644 vendor/symfony/routing/RouteCompilerInterface.php
+				     delete mode 100644 vendor/symfony/routing/Router.php
+				      delete mode 100644 vendor/symfony/routing/RouterInterface.php
+				       delete mode 100644 vendor/symfony/routing/composer.json
+				        delete mode 100644 vendor/symfony/service-contracts/Attribute/Required.php
+					 delete mode 100644 vendor/symfony/service-contracts/Attribute/SubscribedService.php
+					  delete mode 100644 vendor/symfony/service-contracts/CHANGELOG.md
+					   delete mode 100644 vendor/symfony/service-contracts/LICENSE
+					    delete mode 100644 vendor/symfony/service-contracts/README.md
+					     delete mode 100644 vendor/symfony/service-contracts/ResetInterface.php
+					      delete mode 100644 vendor/symfony/service-contracts/ServiceCollectionInterface.php
+					       delete mode 100644 vendor/symfony/service-contracts/ServiceLocatorTrait.php
+					        delete mode 100644 vendor/symfony/service-contracts/ServiceMethodsSubscriberTrait.php
+						 delete mode 100644 vendor/symfony/service-contracts/ServiceProviderInterface.php
+						  delete mode 100644 vendor/symfony/service-contracts/ServiceSubscriberInterface.php
+						   delete mode 100644 vendor/symfony/service-contracts/ServiceSubscriberTrait.php
+						    delete mode 100644 vendor/symfony/service-contracts/Test/ServiceLocatorTest.php
+						     delete mode 100644 vendor/symfony/service-contracts/Test/ServiceLocatorTestCase.php
+						      delete mode 100644 vendor/symfony/service-contracts/composer.json
+						       delete mode 100644 vendor/symfony/string/AbstractString.php
+						        delete mode 100644 vendor/symfony/string/AbstractUnicodeString.php
+							 delete mode 100644 vendor/symfony/string/ByteString.php
+							  delete mode 100644 vendor/symfony/string/CHANGELOG.md
+							   delete mode 100644 vendor/symfony/string/CodePointString.php
+							    delete mode 100644 vendor/symfony/string/Exception/ExceptionInterface.php
+							     delete mode 100644 vendor/symfony/string/Exception/InvalidArgumentException.php
+							      delete mode 100644 vendor/symfony/string/Exception/RuntimeException.php
+							       delete mode 100644 vendor/symfony/string/Inflector/EnglishInflector.php
+							        delete mode 100644 vendor/symfony/string/Inflector/FrenchInflector.php
+								 delete mode 100644 vendor/symfony/string/Inflector/InflectorInterface.php
+								  delete mode 100644 vendor/symfony/string/Inflector/SpanishInflector.php
+								   delete mode 100644 vendor/symfony/string/LICENSE
+								    delete mode 100644 vendor/symfony/string/LazyString.php
+								     delete mode 100644 vendor/symfony/string/README.md
+								      delete mode 100644 vendor/symfony/string/Resources/data/wcswidth_table_wide.php
+								       delete mode 100644 vendor/symfony/string/Resources/data/wcswidth_table_zero.php
+								        delete mode 100644 vendor/symfony/string/Resources/functions.php
+									 delete mode 100644 vendor/symfony/string/Slugger/AsciiSlugger.php
+									  delete mode 100644 vendor/symfony/string/Slugger/SluggerInterface.php
+									   delete mode 100644 vendor/symfony/string/TruncateMode.php
+									    delete mode 100644 vendor/symfony/string/UnicodeString.php
+									     delete mode 100644 vendor/symfony/string/composer.json
+									      delete mode 100644 vendor/symfony/translation-contracts/CHANGELOG.md
+									       delete mode 100644 vendor/symfony/translation-contracts/LICENSE
+									        delete mode 100644 vendor/symfony/translation-contracts/LocaleAwareInterface.php
+										 delete mode 100644 vendor/symfony/translation-contracts/README.md
+										  delete mode 100644 vendor/symfony/translation-contracts/Test/TranslatorTest.php
+										   delete mode 100644 vendor/symfony/translation-contracts/TranslatableInterface.php
+										    delete mode 100644 vendor/symfony/translation-contracts/TranslatorInterface.php
+										     delete mode 100644 vendor/symfony/translation-contracts/TranslatorTrait.php
+										      delete mode 100644 vendor/symfony/translation-contracts/composer.json
+										       delete mode 100644 vendor/symfony/translation/CHANGELOG.md
+										        delete mode 100644 vendor/symfony/translation/Catalogue/AbstractOperation.php
+											 delete mode 100644 vendor/symfony/translation/Catalogue/MergeOperation.php
+											  delete mode 100644 vendor/symfony/translation/Catalogue/OperationInterface.php
+											   delete mode 100644 vendor/symfony/translation/Catalogue/TargetOperation.php
+											    delete mode 100644 vendor/symfony/translation/CatalogueMetadataAwareInterface.php
+											     delete mode 100644 vendor/symfony/translation/Command/TranslationLintCommand.php
+											      delete mode 100644 vendor/symfony/translation/Command/TranslationPullCommand.php
+											       delete mode 100644 vendor/symfony/translation/Command/TranslationPushCommand.php
+											        delete mode 100644 vendor/symfony/translation/Command/TranslationTrait.php
+												 delete mode 100644 vendor/symfony/translation/Command/XliffLintCommand.php
+												  delete mode 100644 vendor/symfony/translation/DataCollector/TranslationDataCollector.php
+												   delete mode 100644 vendor/symfony/translation/DataCollectorTranslator.php
+												    delete mode 100644 vendor/symfony/translation/DependencyInjection/DataCollectorTranslatorPass.php
+												     delete mode 100644 vendor/symfony/translation/DependencyInjection/LoggingTranslatorPass.php
+												      delete mode 100644 vendor/symfony/translation/DependencyInjection/TranslationDumperPass.php
+												       delete mode 100644 vendor/symfony/translation/DependencyInjection/TranslationExtractorPass.php
+												        delete mode 100644 vendor/symfony/translation/DependencyInjection/TranslatorPass.php
+													 delete mode 100644 vendor/symfony/translation/DependencyInjection/TranslatorPathsPass.php
+													  delete mode 100644 vendor/symfony/translation/Dumper/CsvFileDumper.php
+													   delete mode 100644 vendor/symfony/translation/Dumper/DumperInterface.php
+													    delete mode 100644 vendor/symfony/translation/Dumper/FileDumper.php
+													     delete mode 100644 vendor/symfony/translation/Dumper/IcuResFileDumper.php
+													      delete mode 100644 vendor/symfony/translation/Dumper/IniFileDumper.php
+													       delete mode 100644 vendor/symfony/translation/Dumper/JsonFileDumper.php
+													        delete mode 100644 vendor/symfony/translation/Dumper/MoFileDumper.php
+														 delete mode 100644 vendor/symfony/translation/Dumper/PhpFileDumper.php
+														  delete mode 100644 vendor/symfony/translation/Dumper/PoFileDumper.php
+														   delete mode 100644 vendor/symfony/translation/Dumper/QtFileDumper.php
+														    delete mode 100644 vendor/symfony/translation/Dumper/XliffFileDumper.php
+														     delete mode 100644 vendor/symfony/translation/Dumper/YamlFileDumper.php
+														      delete mode 100644 vendor/symfony/translation/Exception/ExceptionInterface.php
+														       delete mode 100644 vendor/symfony/translation/Exception/IncompleteDsnException.php
+														        delete mode 100644 vendor/symfony/translation/Exception/InvalidArgumentException.php
+															 delete mode 100644 vendor/symfony/translation/Exception/InvalidResourceException.php
+															  delete mode 100644 vendor/symfony/translation/Exception/LogicException.php
+															   delete mode 100644 vendor/symfony/translation/Exception/MissingRequiredOptionException.php
+															    delete mode 100644 vendor/symfony/translation/Exception/NotFoundResourceException.php
+															     delete mode 100644 vendor/symfony/translation/Exception/ProviderException.php
+															      delete mode 100644 vendor/symfony/translation/Exception/ProviderExceptionInterface.php
+															       delete mode 100644 vendor/symfony/translation/Exception/RuntimeException.php
+															        delete mode 100644 vendor/symfony/translation/Exception/UnsupportedSchemeException.php
+																 delete mode 100644 vendor/symfony/translation/Extractor/AbstractFileExtractor.php
+																  delete mode 100644 vendor/symfony/translation/Extractor/ChainExtractor.php
+																   delete mode 100644 vendor/symfony/translation/Extractor/ExtractorInterface.php
+																    delete mode 100644 vendor/symfony/translation/Extractor/PhpAstExtractor.php
+																     delete mode 100644 vendor/symfony/translation/Extractor/Visitor/AbstractVisitor.php
+																      delete mode 100644 vendor/symfony/translation/Extractor/Visitor/ConstraintVisitor.php
+																       delete mode 100644 vendor/symfony/translation/Extractor/Visitor/TransMethodVisitor.php
+																        delete mode 100644 vendor/symfony/translation/Extractor/Visitor/TranslatableMessageVisitor.php
+																	 delete mode 100644 vendor/symfony/translation/Formatter/IntlFormatter.php
+																	  delete mode 100644 vendor/symfony/translation/Formatter/IntlFormatterInterface.php
+																	   delete mode 100644 vendor/symfony/translation/Formatter/MessageFormatter.php
+																	    delete mode 100644 vendor/symfony/translation/Formatter/MessageFormatterInterface.php
+																	     delete mode 100644 vendor/symfony/translation/IdentityTranslator.php
+																	      delete mode 100644 vendor/symfony/translation/LICENSE
+																	       delete mode 100644 vendor/symfony/translation/Loader/ArrayLoader.php
+																	        delete mode 100644 vendor/symfony/translation/Loader/CsvFileLoader.php
+																		 delete mode 100644 vendor/symfony/translation/Loader/FileLoader.php
+																		  delete mode 100644 vendor/symfony/translation/Loader/IcuDatFileLoader.php
+																		   delete mode 100644 vendor/symfony/translation/Loader/IcuResFileLoader.php
+																		    delete mode 100644 vendor/symfony/translation/Loader/IniFileLoader.php
+																		     delete mode 100644 vendor/symfony/translation/Loader/JsonFileLoader.php
+																		      delete mode 100644 vendor/symfony/translation/Loader/LoaderInterface.php
+																		       delete mode 100644 vendor/symfony/translation/Loader/MoFileLoader.php
+																		        delete mode 100644 vendor/symfony/translation/Loader/PhpFileLoader.php
+																			 delete mode 100644 vendor/symfony/translation/Loader/PoFileLoader.php
+																			  delete mode 100644 vendor/symfony/translation/Loader/QtFileLoader.php
+																			   delete mode 100644 vendor/symfony/translation/Loader/XliffFileLoader.php
+																			    delete mode 100644 vendor/symfony/translation/Loader/YamlFileLoader.php
+																			     delete mode 100644 vendor/symfony/translation/LocaleSwitcher.php
+																			      delete mode 100644 vendor/symfony/translation/LoggingTranslator.php
+																			       delete mode 100644 vendor/symfony/translation/MessageCatalogue.php
+																			        delete mode 100644 vendor/symfony/translation/MessageCatalogueInterface.php
+																				 delete mode 100644 vendor/symfony/translation/MetadataAwareInterface.php
+																				  delete mode 100644 vendor/symfony/translation/Provider/AbstractProviderFactory.php
+																				   delete mode 100644 vendor/symfony/translation/Provider/Dsn.php
+																				    delete mode 100644 vendor/symfony/translation/Provider/FilteringProvider.php
+																				     delete mode 100644 vendor/symfony/translation/Provider/NullProvider.php
+																				      delete mode 100644 vendor/symfony/translation/Provider/NullProviderFactory.php
+																				       delete mode 100644 vendor/symfony/translation/Provider/ProviderFactoryInterface.php
+																				        delete mode 100644 vendor/symfony/translation/Provider/ProviderInterface.php
+																					 delete mode 100644 vendor/symfony/translation/Provider/TranslationProviderCollection.php
+																					  delete mode 100644 vendor/symfony/translation/Provider/TranslationProviderCollectionFactory.php
+																					   delete mode 100644 vendor/symfony/translation/PseudoLocalizationTranslator.php
+																					    delete mode 100644 vendor/symfony/translation/README.md
+																					     delete mode 100644 vendor/symfony/translation/Reader/TranslationReader.php
+																					      delete mode 100644 vendor/symfony/translation/Reader/TranslationReaderInterface.php
+																					       delete mode 100644 vendor/symfony/translation/Resources/bin/translation-status.php
+																					        delete mode 100644 vendor/symfony/translation/Resources/data/parents.json
+																						 delete mode 100644 vendor/symfony/translation/Resources/functions.php
+																						  delete mode 100644 vendor/symfony/translation/Resources/schemas/xliff-core-1.2-transitional.xsd
+																						   delete mode 100644 vendor/symfony/translation/Resources/schemas/xliff-core-2.0.xsd
+																						    delete mode 100644 vendor/symfony/translation/Resources/schemas/xml.xsd
+																						     delete mode 100644 vendor/symfony/translation/Test/AbstractProviderFactoryTestCase.php
+																						      delete mode 100644 vendor/symfony/translation/Test/IncompleteDsnTestTrait.php
+																						       delete mode 100644 vendor/symfony/translation/Test/ProviderFactoryTestCase.php
+																						        delete mode 100644 vendor/symfony/translation/Test/ProviderTestCase.php
+																							 delete mode 100644 vendor/symfony/translation/TranslatableMessage.php
+																							  delete mode 100644 vendor/symfony/translation/Translator.php
+																							   delete mode 100644 vendor/symfony/translation/TranslatorBag.php
+																							    delete mode 100644 vendor/symfony/translation/TranslatorBagInterface.php
+																							     delete mode 100644 vendor/symfony/translation/Util/ArrayConverter.php
+																							      delete mode 100644 vendor/symfony/translation/Util/XliffUtils.php
+																							       delete mode 100644 vendor/symfony/translation/Writer/TranslationWriter.php
+																							        delete mode 100644 vendor/symfony/translation/Writer/TranslationWriterInterface.php
+																								 delete mode 100644 vendor/symfony/translation/composer.json
+																								  delete mode 100644 vendor/symfony/uid/AbstractUid.php
+																								   delete mode 100644 vendor/symfony/uid/BinaryUtil.php
+																								    delete mode 100644 vendor/symfony/uid/CHANGELOG.md
+																								     delete mode 100644 vendor/symfony/uid/Command/GenerateUlidCommand.php
+																								      delete mode 100644 vendor/symfony/uid/Command/GenerateUuidCommand.php
+																								       delete mode 100644 vendor/symfony/uid/Command/InspectUlidCommand.php
+																								        delete mode 100644 vendor/symfony/uid/Command/InspectUuidCommand.php
+																									 delete mode 100644 vendor/symfony/uid/Exception/InvalidArgumentException.php
+																									  delete mode 100644 vendor/symfony/uid/Exception/LogicException.php
+																									   delete mode 100644 vendor/symfony/uid/Factory/NameBasedUuidFactory.php
+																									    delete mode 100644 vendor/symfony/uid/Factory/RandomBasedUuidFactory.php
+																									     delete mode 100644 vendor/symfony/uid/Factory/TimeBasedUuidFactory.php
+																									      delete mode 100644 vendor/symfony/uid/Factory/UlidFactory.php
+																									       delete mode 100644 vendor/symfony/uid/Factory/UuidFactory.php
+																									        delete mode 100644 vendor/symfony/uid/HashableInterface.php
+																										 delete mode 100644 vendor/symfony/uid/LICENSE
+																										  delete mode 100644 vendor/symfony/uid/MaxUlid.php
+																										   delete mode 100644 vendor/symfony/uid/MaxUuid.php
+																										    delete mode 100644 vendor/symfony/uid/NilUlid.php
+																										     delete mode 100644 vendor/symfony/uid/NilUuid.php
+																										      delete mode 100644 vendor/symfony/uid/README.md
+																										       delete mode 100644 vendor/symfony/uid/TimeBasedUidInterface.php
+																										        delete mode 100644 vendor/symfony/uid/Ulid.php
+																											 delete mode 100644 vendor/symfony/uid/Uuid.php
+																											  delete mode 100644 vendor/symfony/uid/UuidV1.php
+																											   delete mode 100644 vendor/symfony/uid/UuidV3.php
+																											    delete mode 100644 vendor/symfony/uid/UuidV4.php
+																											     delete mode 100644 vendor/symfony/uid/UuidV5.php
+																											      delete mode 100644 vendor/symfony/uid/UuidV6.php
+																											       delete mode 100644 vendor/symfony/uid/UuidV7.php
+																											        delete mode 100644 vendor/symfony/uid/UuidV8.php
+																												 delete mode 100644 vendor/symfony/uid/composer.json
+																												  delete mode 100644 vendor/symfony/var-dumper/CHANGELOG.md
+																												   delete mode 100644 vendor/symfony/var-dumper/Caster/AddressInfoCaster.php
+																												    delete mode 100644 vendor/symfony/var-dumper/Caster/AmqpCaster.php
+																												     delete mode 100644 vendor/symfony/var-dumper/Caster/ArgsStub.php
+																												      delete mode 100644 vendor/symfony/var-dumper/Caster/Caster.php
+																												       delete mode 100644 vendor/symfony/var-dumper/Caster/ClassStub.php
+																												        delete mode 100644 vendor/symfony/var-dumper/Caster/ConstStub.php
+																													 delete mode 100644 vendor/symfony/var-dumper/Caster/CurlCaster.php
+																													  delete mode 100644 vendor/symfony/var-dumper/Caster/CutArrayStub.php
+																													   delete mode 100644 vendor/symfony/var-dumper/Caster/CutStub.php
+																													    delete mode 100644 vendor/symfony/var-dumper/Caster/DOMCaster.php
+																													     delete mode 100644 vendor/symfony/var-dumper/Caster/DateCaster.php
+																													      delete mode 100644 vendor/symfony/var-dumper/Caster/DoctrineCaster.php
+																													       delete mode 100644 vendor/symfony/var-dumper/Caster/DsCaster.php
+																													        delete mode 100644 vendor/symfony/var-dumper/Caster/DsPairStub.php
+																														 delete mode 100644 vendor/symfony/var-dumper/Caster/EnumStub.php
+																														  delete mode 100644 vendor/symfony/var-dumper/Caster/ExceptionCaster.php
+																														   delete mode 100644 vendor/symfony/var-dumper/Caster/FFICaster.php
+																														    delete mode 100644 vendor/symfony/var-dumper/Caster/FiberCaster.php
+																														     delete mode 100644 vendor/symfony/var-dumper/Caster/FrameStub.php
+																														      delete mode 100644 vendor/symfony/var-dumper/Caster/GdCaster.php
+																														       delete mode 100644 vendor/symfony/var-dumper/Caster/GmpCaster.php
+																														        delete mode 100644 vendor/symfony/var-dumper/Caster/ImagineCaster.php
+																															 delete mode 100644 vendor/symfony/var-dumper/Caster/ImgStub.php
+																															  delete mode 100644 vendor/symfony/var-dumper/Caster/IntlCaster.php
+																															   delete mode 100644 vendor/symfony/var-dumper/Caster/LinkStub.php
+																															    delete mode 100644 vendor/symfony/var-dumper/Caster/MemcachedCaster.php
+																															     delete mode 100644 vendor/symfony/var-dumper/Caster/MysqliCaster.php
+																															      delete mode 100644 vendor/symfony/var-dumper/Caster/OpenSSLCaster.php
+																															       delete mode 100644 vendor/symfony/var-dumper/Caster/PdoCaster.php
+																															        delete mode 100644 vendor/symfony/var-dumper/Caster/PgSqlCaster.php
+																																 delete mode 100644 vendor/symfony/var-dumper/Caster/ProxyManagerCaster.php
+																																  delete mode 100644 vendor/symfony/var-dumper/Caster/RdKafkaCaster.php
+																																   delete mode 100644 vendor/symfony/var-dumper/Caster/RedisCaster.php
+																																    delete mode 100644 vendor/symfony/var-dumper/Caster/ReflectionCaster.php
+																																     delete mode 100644 vendor/symfony/var-dumper/Caster/ResourceCaster.php
+																																      delete mode 100644 vendor/symfony/var-dumper/Caster/ScalarStub.php
+																																       delete mode 100644 vendor/symfony/var-dumper/Caster/SocketCaster.php
+																																        delete mode 100644 vendor/symfony/var-dumper/Caster/SplCaster.php
+																																	 delete mode 100644 vendor/symfony/var-dumper/Caster/SqliteCaster.php
+																																	  delete mode 100644 vendor/symfony/var-dumper/Caster/StubCaster.php
+																																	   delete mode 100644 vendor/symfony/var-dumper/Caster/SymfonyCaster.php
+																																	    delete mode 100644 vendor/symfony/var-dumper/Caster/TraceStub.php
+																																	     delete mode 100644 vendor/symfony/var-dumper/Caster/UninitializedStub.php
+																																	      delete mode 100644 vendor/symfony/var-dumper/Caster/UuidCaster.php
+																																	       delete mode 100644 vendor/symfony/var-dumper/Caster/VirtualStub.php
+																																	        delete mode 100644 vendor/symfony/var-dumper/Caster/XmlReaderCaster.php
+																																		 delete mode 100644 vendor/symfony/var-dumper/Caster/XmlResourceCaster.php
+																																		  delete mode 100644 vendor/symfony/var-dumper/Cloner/AbstractCloner.php
+																																		   delete mode 100644 vendor/symfony/var-dumper/Cloner/ClonerInterface.php
+																																		    delete mode 100644 vendor/symfony/var-dumper/Cloner/Cursor.php
+																																		     delete mode 100644 vendor/symfony/var-dumper/Cloner/Data.php
+																																		      delete mode 100644 vendor/symfony/var-dumper/Cloner/DumperInterface.php
+																																		       delete mode 100644 vendor/symfony/var-dumper/Cloner/Stub.php
+																																		        delete mode 100644 vendor/symfony/var-dumper/Cloner/VarCloner.php
+																																			 delete mode 100644 vendor/symfony/var-dumper/Command/Descriptor/CliDescriptor.php
+																																			  delete mode 100644 vendor/symfony/var-dumper/Command/Descriptor/DumpDescriptorInterface.php
+																																			   delete mode 100644 vendor/symfony/var-dumper/Command/Descriptor/HtmlDescriptor.php
+																																			    delete mode 100644 vendor/symfony/var-dumper/Command/ServerDumpCommand.php
+																																			     delete mode 100644 vendor/symfony/var-dumper/Dumper/AbstractDumper.php
+																																			      delete mode 100644 vendor/symfony/var-dumper/Dumper/CliDumper.php
+																																			       delete mode 100644 vendor/symfony/var-dumper/Dumper/ContextProvider/CliContextProvider.php
+																																			        delete mode 100644 vendor/symfony/var-dumper/Dumper/ContextProvider/ContextProviderInterface.php
+																																				 delete mode 100644 vendor/symfony/var-dumper/Dumper/ContextProvider/RequestContextProvider.php
+																																				  delete mode 100644 vendor/symfony/var-dumper/Dumper/ContextProvider/SourceContextProvider.php
+																																				   delete mode 100644 vendor/symfony/var-dumper/Dumper/ContextualizedDumper.php
+																																				    delete mode 100644 vendor/symfony/var-dumper/Dumper/DataDumperInterface.php
+																																				     delete mode 100644 vendor/symfony/var-dumper/Dumper/HtmlDumper.php
+																																				      delete mode 100644 vendor/symfony/var-dumper/Dumper/ServerDumper.php
+																																				       delete mode 100644 vendor/symfony/var-dumper/Exception/ThrowingCasterException.php
+																																				        delete mode 100644 vendor/symfony/var-dumper/LICENSE
+																																					 delete mode 100644 vendor/symfony/var-dumper/README.md
+																																					  delete mode 100755 vendor/symfony/var-dumper/Resources/bin/var-dump-server
+																																					   delete mode 100644 vendor/symfony/var-dumper/Resources/css/htmlDescriptor.css
+																																					    delete mode 100644 vendor/symfony/var-dumper/Resources/functions/dump.php
+																																					     delete mode 100644 vendor/symfony/var-dumper/Resources/js/htmlDescriptor.js
+																																					      delete mode 100644 vendor/symfony/var-dumper/Server/Connection.php
+																																					       delete mode 100644 vendor/symfony/var-dumper/Server/DumpServer.php
+																																					        delete mode 100644 vendor/symfony/var-dumper/Test/VarDumperTestTrait.php
+																																						 delete mode 100644 vendor/symfony/var-dumper/VarDumper.php
+																																						  delete mode 100644 vendor/symfony/var-dumper/composer.json
+																																						   delete mode 100644 vendor/symfony/yaml/CHANGELOG.md
+																																						    delete mode 100644 vendor/symfony/yaml/Command/LintCommand.php
+																																						     delete mode 100644 vendor/symfony/yaml/Dumper.php
+																																						      delete mode 100644 vendor/symfony/yaml/Escaper.php
+																																						       delete mode 100644 vendor/symfony/yaml/Exception/DumpException.php
+																																						        delete mode 100644 vendor/symfony/yaml/Exception/ExceptionInterface.php
+																																							 delete mode 100644 vendor/symfony/yaml/Exception/ParseException.php
+																																							  delete mode 100644 vendor/symfony/yaml/Exception/RuntimeException.php
+																																							   delete mode 100644 vendor/symfony/yaml/Inline.php
+																																							    delete mode 100644 vendor/symfony/yaml/LICENSE
+																																							     delete mode 100644 vendor/symfony/yaml/Parser.php
+																																							      delete mode 100644 vendor/symfony/yaml/README.md
+																																							       delete mode 100755 vendor/symfony/yaml/Resources/bin/yaml-lint
+																																							        delete mode 100644 vendor/symfony/yaml/Tag/TaggedValue.php
+																																								 delete mode 100644 vendor/symfony/yaml/Unescaper.php
+																																								  delete mode 100644 vendor/symfony/yaml/Yaml.php
+																																								   delete mode 100644 vendor/symfony/yaml/composer.json
+																																								    delete mode 100644 vendor/theseer/tokenizer/CHANGELOG.md
+																																								     delete mode 100644 vendor/theseer/tokenizer/LICENSE
+																																								      delete mode 100644 vendor/theseer/tokenizer/README.md
+																																								       delete mode 100644 vendor/theseer/tokenizer/composer.json
+																																								        delete mode 100644 vendor/theseer/tokenizer/composer.lock
+																																									 delete mode 100644 vendor/theseer/tokenizer/src/Exception.php
+																																									  delete mode 100644 vendor/theseer/tokenizer/src/NamespaceUri.php
+																																									   delete mode 100644 vendor/theseer/tokenizer/src/NamespaceUriException.php
+																																									    delete mode 100644 vendor/theseer/tokenizer/src/Token.php
+																																									     delete mode 100644 vendor/theseer/tokenizer/src/TokenCollection.php
+																																									      delete mode 100644 vendor/theseer/tokenizer/src/TokenCollectionException.php
+																																									       delete mode 100644 vendor/theseer/tokenizer/src/Tokenizer.php
+																																									        delete mode 100644 vendor/theseer/tokenizer/src/XMLSerializer.php
+																																										 delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/LICENSE.md
+																																										  delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/composer.json
+																																										   delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/src/Css/Processor.php
+																																										    delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/src/Css/Property/Processor.php
+																																										     delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php
+																																										      delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php
+																																										       delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php
+																																										        delete mode 100644 vendor/tijsverkoyen/css-to-inline-styles/src/CssToInlineStyles.php
+																																											 delete mode 100644 vendor/vlucas/phpdotenv/LICENSE
+																																											  delete mode 100644 vendor/vlucas/phpdotenv/composer.json
+																																											   delete mode 100644 vendor/vlucas/phpdotenv/src/Dotenv.php
+																																											    delete mode 100644 vendor/vlucas/phpdotenv/src/Exception/ExceptionInterface.php
+																																											     delete mode 100644 vendor/vlucas/phpdotenv/src/Exception/InvalidEncodingException.php
+																																											      delete mode 100644 vendor/vlucas/phpdotenv/src/Exception/InvalidFileException.php
+																																											       delete mode 100644 vendor/vlucas/phpdotenv/src/Exception/InvalidPathException.php
+																																											        delete mode 100644 vendor/vlucas/phpdotenv/src/Exception/ValidationException.php
+																																												 delete mode 100644 vendor/vlucas/phpdotenv/src/Loader/Loader.php
+																																												  delete mode 100644 vendor/vlucas/phpdotenv/src/Loader/LoaderInterface.php
+																																												   delete mode 100644 vendor/vlucas/phpdotenv/src/Loader/Resolver.php
+																																												    delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/Entry.php
+																																												     delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/EntryParser.php
+																																												      delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/Lexer.php
+																																												       delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/Lines.php
+																																												        delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/Parser.php
+																																													 delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/ParserInterface.php
+																																													  delete mode 100644 vendor/vlucas/phpdotenv/src/Parser/Value.php
+																																													   delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/AdapterInterface.php
+																																													    delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/ApacheAdapter.php
+																																													     delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/ArrayAdapter.php
+																																													      delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/EnvConstAdapter.php
+																																													       delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/GuardedWriter.php
+																																													        delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/ImmutableWriter.php
+																																														 delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiReader.php
+																																														  delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiWriter.php
+																																														   delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php
+																																														    delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/ReaderInterface.php
+																																														     delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/ReplacingWriter.php
+																																														      delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php
+																																														       delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/Adapter/WriterInterface.php
+																																														        delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/AdapterRepository.php
+																																															 delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php
+																																															  delete mode 100644 vendor/vlucas/phpdotenv/src/Repository/RepositoryInterface.php
+																																															   delete mode 100644 vendor/vlucas/phpdotenv/src/Store/File/Paths.php
+																																															    delete mode 100644 vendor/vlucas/phpdotenv/src/Store/File/Reader.php
+																																															     delete mode 100644 vendor/vlucas/phpdotenv/src/Store/FileStore.php
+																																															      delete mode 100644 vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php
+																																															       delete mode 100644 vendor/vlucas/phpdotenv/src/Store/StoreInterface.php
+																																															        delete mode 100644 vendor/vlucas/phpdotenv/src/Store/StringStore.php
+																																																 delete mode 100644 vendor/vlucas/phpdotenv/src/Util/Regex.php
+																																																  delete mode 100644 vendor/vlucas/phpdotenv/src/Util/Str.php
+																																																   delete mode 100644 vendor/vlucas/phpdotenv/src/Validator.php
+																																																    delete mode 100644 vendor/voku/portable-ascii/.deepsource.toml
+																																																     delete mode 100644 vendor/voku/portable-ascii/CHANGELOG.md
+																																																      delete mode 100644 vendor/voku/portable-ascii/LICENSE.txt
+																																																       delete mode 100644 vendor/voku/portable-ascii/README.md
+																																																        delete mode 100644 vendor/voku/portable-ascii/composer.json
+																																																	 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/ASCII.php
+																																																	  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/ascii_by_languages.php
+																																																	   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/ascii_extras_by_languages.php
+																																																	    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/ascii_language_max_key.php
+																																																	     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/ascii_ord.php
+																																																	      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x000.php
+																																																	       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x001.php
+																																																	        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x002.php
+																																																		 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x003.php
+																																																		  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x004.php
+																																																		   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x005.php
+																																																		    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x006.php
+																																																		     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x007.php
+																																																		      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x009.php
+																																																		       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x00a.php
+																																																		        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x00b.php
+																																																			 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x00c.php
+																																																			  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x00d.php
+																																																			   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x00e.php
+																																																			    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x00f.php
+																																																			     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x010.php
+																																																			      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x011.php
+																																																			       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x012.php
+																																																			        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x013.php
+																																																				 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x014.php
+																																																				  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x015.php
+																																																				   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x016.php
+																																																				    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x017.php
+																																																				     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x018.php
+																																																				      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x01d.php
+																																																				       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x01e.php
+																																																				        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x01f.php
+																																																					 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x020.php
+																																																					  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x021.php
+																																																					   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x022.php
+																																																					    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x023.php
+																																																					     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x024.php
+																																																					      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x025.php
+																																																					       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x026.php
+																																																					        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x027.php
+																																																						 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x028.php
+																																																						  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x029.php
+																																																						   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x02a.php
+																																																						    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x02c.php
+																																																						     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x02e.php
+																																																						      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x02f.php
+																																																						       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x030.php
+																																																						        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x031.php
+																																																							 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x032.php
+																																																							  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x033.php
+																																																							   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x04d.php
+																																																							    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x04e.php
+																																																							     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x04f.php
+																																																							      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x050.php
+																																																							       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x051.php
+																																																							        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x052.php
+																																																								 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x053.php
+																																																								  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x054.php
+																																																								   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x055.php
+																																																								    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x056.php
+																																																								     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x057.php
+																																																								      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x058.php
+																																																								       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x059.php
+																																																								        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x05a.php
+																																																									 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x05b.php
+																																																									  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x05c.php
+																																																									   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x05d.php
+																																																									    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x05e.php
+																																																									     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x05f.php
+																																																									      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x060.php
+																																																									       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x061.php
+																																																									        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x062.php
+																																																										 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x063.php
+																																																										  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x064.php
+																																																										   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x065.php
+																																																										    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x066.php
+																																																										     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x067.php
+																																																										      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x068.php
+																																																										       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x069.php
+																																																										        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x06a.php
+																																																											 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x06b.php
+																																																											  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x06c.php
+																																																											   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x06d.php
+																																																											    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x06e.php
+																																																											     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x06f.php
+																																																											      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x070.php
+																																																											       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x071.php
+																																																											        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x072.php
+																																																												 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x073.php
+																																																												  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x074.php
+																																																												   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x075.php
+																																																												    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x076.php
+																																																												     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x077.php
+																																																												      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x078.php
+																																																												       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x079.php
+																																																												        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x07a.php
+																																																													 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x07b.php
+																																																													  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x07c.php
+																																																													   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x07d.php
+																																																													    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x07e.php
+																																																													     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x07f.php
+																																																													      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x080.php
+																																																													       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x081.php
+																																																													        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x082.php
+																																																														 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x083.php
+																																																														  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x084.php
+																																																														   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x085.php
+																																																														    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x086.php
+																																																														     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x087.php
+																																																														      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x088.php
+																																																														       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x089.php
+																																																														        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x08a.php
+																																																															 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x08b.php
+																																																															  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x08c.php
+																																																															   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x08d.php
+																																																															    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x08e.php
+																																																															     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x08f.php
+																																																															      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x090.php
+																																																															       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x091.php
+																																																															        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x092.php
+																																																																 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x093.php
+																																																																  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x094.php
+																																																																   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x095.php
+																																																																    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x096.php
+																																																																     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x097.php
+																																																																      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x098.php
+																																																																       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x099.php
+																																																																        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x09a.php
+																																																																	 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x09b.php
+																																																																	  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x09c.php
+																																																																	   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x09d.php
+																																																																	    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x09e.php
+																																																																	     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x09f.php
+																																																																	      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0a0.php
+																																																																	       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0a1.php
+																																																																	        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0a2.php
+																																																																		 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0a3.php
+																																																																		  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0a4.php
+																																																																		   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ac.php
+																																																																		    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ad.php
+																																																																		     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ae.php
+																																																																		      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0af.php
+																																																																		       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b0.php
+																																																																		        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b1.php
+																																																																			 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b2.php
+																																																																			  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b3.php
+																																																																			   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b4.php
+																																																																			    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b5.php
+																																																																			     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b6.php
+																																																																			      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b7.php
+																																																																			       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b8.php
+																																																																			        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0b9.php
+																																																																				 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ba.php
+																																																																				  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0bb.php
+																																																																				   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0bc.php
+																																																																				    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0bd.php
+																																																																				     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0be.php
+																																																																				      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0bf.php
+																																																																				       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c0.php
+																																																																				        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c1.php
+																																																																					 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c2.php
+																																																																					  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c3.php
+																																																																					   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c4.php
+																																																																					    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c5.php
+																																																																					     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c6.php
+																																																																					      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c7.php
+																																																																					       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c8.php
+																																																																					        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0c9.php
+																																																																						 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ca.php
+																																																																						  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0cb.php
+																																																																						   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0cc.php
+																																																																						    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0cd.php
+																																																																						     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ce.php
+																																																																						      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0cf.php
+																																																																						       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d0.php
+																																																																						        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d1.php
+																																																																							 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d2.php
+																																																																							  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d3.php
+																																																																							   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d4.php
+																																																																							    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d5.php
+																																																																							     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d6.php
+																																																																							      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0d7.php
+																																																																							       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0f9.php
+																																																																							        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0fa.php
+																																																																								 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0fb.php
+																																																																								  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0fc.php
+																																																																								   delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0fd.php
+																																																																								    delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0fe.php
+																																																																								     delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x0ff.php
+																																																																								      delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x1d4.php
+																																																																								       delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x1d5.php
+																																																																								        delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x1d6.php
+																																																																									 delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x1d7.php
+																																																																									  delete mode 100644 vendor/voku/portable-ascii/src/voku/helper/data/x1f1.php
+																																																																									   delete mode 100644 vendor/webmozart/assert/CHANGELOG.md
+																																																																									    delete mode 100644 vendor/webmozart/assert/LICENSE
+																																																																									     delete mode 100644 vendor/webmozart/assert/README.md
+																																																																									      delete mode 100644 vendor/webmozart/assert/composer.json
+																																																																									       delete mode 100644 vendor/webmozart/assert/src/Assert.php
+																																																																									        delete mode 100644 vendor/webmozart/assert/src/InvalidArgumentException.php
+																																																																										 delete mode 100644 vendor/webmozart/assert/src/Mixin.php
+																																																																										  delete mode 100644 vite.config.js
+																																																																										  Enumerating objects: 3, done.
+																																																																										  Counting objects: 100% (3/3), done.
+																																																																										  Delta compression using up to 12 threads
+																																																																										  Compressing objects: 100% (1/1), done.
+																																																																										  Writing objects: 100% (2/2), 279 bytes | 279.00 KiB/s, done.
+																																																																										  Total 2 (delta 0), reused 1 (delta 0), pack-reused 0
+																																																																										  To github.com:ApplebaumIan/owlhacks-deploy-now.git
+																																																																										     8690325..713d0dd  main -> main
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?3                                                                                                                                                                     took  5s at  03:36:21 PM
+																																																																										     ╰─❯ ls
+																																																																										     bootstrap    database     node_modules storage      vendor
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?3                                                                                                                                                                               at  03:36:25 PM
+																																																																										     ╰─❯ cp -a ../owlhacks .
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?4                                                                                                                                                                               at  03:37:31 PM
+																																																																										     ╰─❯ ls
+																																																																										     bootstrap    database     node_modules owlhacks     storage      vendor
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?4                                                                                                                                                                               at  03:37:33 PM
+																																																																										     ╰─❯ rm -rf owlhacks
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?3                                                                                                                                                                               at  03:37:47 PM
+																																																																										     ╰─❯ cp -a ../owlhacks/. .
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?20                                                                                                                                                                              at  03:38:14 PM
+																																																																										     ╰─❯ ls
+																																																																										     app            bootstrap      composer.lock  database       package.json   public         resources      storage        vendor
+																																																																										     artisan        composer.json  config         node_modules   phpunit.xml    README.md      routes         tests          vite.config.js
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?20                                                                                                                                                                              at  03:38:16 PM
+																																																																										     ╰─❯ cat .gitignore
+																																																																										     *.log
+																																																																										     .DS_Store
+																																																																										     .env
+																																																																										     .env.backup
+																																																																										     .env.production
+																																																																										     .phpactor.json
+																																																																										     .phpunit.result.cache
+																																																																										     /.fleet
+																																																																										     /.idea
+																																																																										     /.nova
+																																																																										     /.phpunit.cache
+																																																																										     /.vscode
+																																																																										     /.zed
+																																																																										     /auth.json
+																																																																										     /node_modules
+																																																																										     /public/build
+																																																																										     /public/hot
+																																																																										     /public/storage
+																																																																										     /storage/*.key
+																																																																										     /storage/pail
+																																																																										     /vendor
+																																																																										     Homestead.json
+																																																																										     Homestead.yaml
+																																																																										     Thumbs.db
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main ?20                                                                                                                                                                              at  03:38:21 PM
+																																																																										     ╰─❯ git add -A
+																																																																										     ╭─   ~/owlhacks-deploy-now-workshop on   main +56                                                                                                                                                                              at  03:38:30 PM
+																																																																										     ╰─❯ git commit -m"simplified laravel"
+																																																																										     Auto packing the repository in background for optimum performance.
+																																																																										     See "git help gc" for manual housekeeping.
+																																																																										     warning: The last gc run reported the following. Please correct the root cause
+																																																																										     and remove .git/gc.log
+																																																																										     Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+
+[main a4a97a3] simplified laravel
+ 56 files changed, 10785 insertions(+)
+  create mode 100644 .editorconfig
+   create mode 100644 .env.example
+    create mode 100644 .gitattributes
+     create mode 100644 .gitignore
+      create mode 100644 README.md
+       create mode 100644 app/Http/Controllers/Controller.php
+        create mode 100644 app/Models/User.php
+	 create mode 100644 app/Providers/AppServiceProvider.php
+	  create mode 100755 artisan
+	   create mode 100644 bootstrap/app.php
+	    create mode 100644 bootstrap/cache/.gitignore
+	     create mode 100644 bootstrap/providers.php
+	      create mode 100644 composer.json
+	       create mode 100644 composer.lock
+	        create mode 100644 config/app.php
+		 create mode 100644 config/auth.php
+		  create mode 100644 config/cache.php
+		   create mode 100644 config/database.php
+		    create mode 100644 config/filesystems.php
+		     create mode 100644 config/logging.php
+		      create mode 100644 config/mail.php
+		       create mode 100644 config/queue.php
+		        create mode 100644 config/services.php
+			 create mode 100644 config/session.php
+			  create mode 100644 database/.gitignore
+			   create mode 100644 database/factories/UserFactory.php
+			    create mode 100644 database/migrations/0001_01_01_000000_create_users_table.php
+			     create mode 100644 database/migrations/0001_01_01_000001_create_cache_table.php
+			      create mode 100644 database/migrations/0001_01_01_000002_create_jobs_table.php
+			       create mode 100644 database/seeders/DatabaseSeeder.php
+			        create mode 100644 package.json
+				 create mode 100644 phpunit.xml
+				  create mode 100644 public/.htaccess
+				   create mode 100644 public/favicon.ico
+				    create mode 100644 public/index.php
+				     create mode 100644 public/robots.txt
+				      create mode 100644 resources/css/app.css
+				       create mode 100644 resources/js/app.js
+				        create mode 100644 resources/js/bootstrap.js
+					 create mode 100644 resources/views/welcome.blade.php
+					  create mode 100644 routes/console.php
+					   create mode 100644 routes/web.php
+					    create mode 100644 storage/app/.gitignore
+					     create mode 100644 storage/app/private/.gitignore
+					      create mode 100644 storage/app/public/.gitignore
+					       create mode 100644 storage/framework/.gitignore
+					        create mode 100644 storage/framework/cache/.gitignore
+						 create mode 100644 storage/framework/cache/data/.gitignore
+						  create mode 100644 storage/framework/sessions/.gitignore
+						   create mode 100644 storage/framework/testing/.gitignore
+						    create mode 100644 storage/framework/views/.gitignore
+						     create mode 100644 storage/logs/.gitignore
+						      create mode 100644 tests/Feature/ExampleTest.php
+						       create mode 100644 tests/TestCase.php
+						        create mode 100644 tests/Unit/ExampleTest.php
+							 create mode 100644 vite.config.js
+							 ╭─   ~/owlhacks-deploy-now-workshop on   main ⇡1                                                                                                                                                                               at  03:38:38 PM
+							 ╰─❯ git push
+							 Enumerating objects: 77, done.
+							 Counting objects: 100% (77/77), done.
+							 Delta compression using up to 12 threads
+							 Compressing objects: 100% (57/57), done.
+							 Writing objects: 100% (76/76), 72.13 KiB | 6.56 MiB/s, done.
+							 Total 76 (delta 2), reused 51 (delta 2), pack-reused 0
+							 remote: Resolving deltas: 100% (2/2), done.
+							 To github.com:ApplebaumIan/owlhacks-deploy-now.git
+							    713d0dd..a4a97a3  main -> main
+							    ╭─   ~/owlhacks-deploy-now-workshop on   main                                                                                                                                                                                  at  03:38:41 PM
+							    ╰─❯ ls .devcontainer/devcontainer.json
+							    .devcontainer/devcontainer.json
+							    ╭─   ~/owlhacks-deploy-now-workshop on   main                                                                                                                                                                                  at  03:38:55 PM
+							    ╰─❯ git pull
+							    remote: Enumerating objects: 20, done.
+							    remote: Counting objects: 100% (20/20), done.
+							    remote: Compressing objects: 100% (7/7), done.
+							    remote: Total 12 (delta 4), reused 12 (delta 4), pack-reused 0 (from 0)
+							    Unpacking objects: 100% (12/12), 18.66 KiB | 955.00 KiB/s, done.
+							    From github.com:ApplebaumIan/owlhacks-deploy-now
+							       a4a97a3..226c289  main       -> origin/main
+							       Auto packing the repository in background for optimum performance.
+							       See "git help gc" for manual housekeeping.
+							       warning: The last gc run reported the following. Please correct the root cause
+							       and remove .git/gc.log
+							       Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+
+Updating a4a97a3..226c289
+Fast-forward
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+
+ app/Http/Middleware/TrustProxies.php |   28 +++
+  app/Providers/AppServiceProvider.php |    5 +-
+   bootstrap/app.php                    |    2 +-
+    package-lock.json                    | 2432 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+     package.json                         |    2 +-
+      5 files changed, 2466 insertions(+), 3 deletions(-)
+       create mode 100644 app/Http/Middleware/TrustProxies.php
+        create mode 100644 package-lock.json
+	╭─   ~/owlhacks-deploy-now-workshop on   main                                                                                                                                                                                  at  03:55:44 PM
+	╰─❯ emacs Dockerfile
+	╭─   ~/owlhacks-deploy-now-workshop on   main ?1                                                                                                                                                                     took  4s at  03:56:06 PM
+	╰─❯ emacs Dockerfile
+	╭─   ~/owlhacks-deploy-now-workshop on   main ?2                                                                                                                                                                  took  1m 5s at  03:57:55 PM
+	╰─❯ emacs compose.local.yml
+	╭─   ~/owlhacks-deploy-now-workshop on   main ?3                                                                                                                                                                     took  4s at  03:58:25 PM
+	╰─❯ docker compose -f compose.local.yml up --build
+	WARN[0000] /Users/ianapplebaum/owlhacks-deploy-now-workshop/compose.local.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+	[+] Running 0/0
+	[+] Running 0/1 Building                                                                                                                                                                                                                       0.1s
+	[+] Running 0/1.7s (7/16)                                                                                                                                                                                                      docker:desktop-linux
+	[+] Building 22.4s (9/16)                                                                                                                                                                                                      docker:desktop-linux
+	 => [app internal] load build definition from Dockerfile                                                                                                                                                                                       0.0s
+	  => => transferring dockerfile: 1.41kB                                                                                                                                                                                                         0.0s
+	   => [app internal] load metadata for docker.io/library/composer:2                                                                                                                                                                              3.8s
+	    => [app internal] load metadata for docker.io/library/php:8.2-cli                                                                                                                                                                             3.8s
+	     => [app internal] load .dockerignore                                                                                                                                                                                                          0.0s
+	      => => transferring context: 2B                                                                                                                                                                                                                0.0s
+	       => [app] FROM docker.io/library/composer:2@sha256:adca13b22c7b77f7fc606353453be12ba93e0917c332b8b0fa5efe3a85bf27ab                                                                                                                           13.3s
+	        => => resolve docker.io/library/composer:2@sha256:adca13b22c7b77f7fc606353453be12ba93e0917c332b8b0fa5efe3a85bf27ab                                                                                                                            0.0s0 => => sha256:f134d9e6243e3fbbfa05bb270e1b5deb7861b5dedcc3ed335822c0cc0f9d47e6 3.80kB / 3.80kB                                                                                                                                                 0.0s
+		 => => sha256:208f9ac90a595eed6079325898742e1b26306dc0b04427bbfaca74117aeee141 11.78kB / 11.78kB                                                                                                                                               0.0s
+		  => => sha256:adca13b22c7b77f7fc606353453be12ba93e0917c332b8b0fa5efe3a85bf27ab 10.10kB / 10.10kB                                                                                                                                               0.0s
+		   => => sha256:ba8c7b2e9c217784e61b3c0ddb6b4e26fdb133bf2f34e672bd485cb10dd58757 6.23MB / 6.23MB                                                                                                                                                 6.7s
+		    => => extracting sha256:ba8c7b2e9c217784e61b3c0ddb6b4e26fdb133bf2f34e672bd485cb10dd58757                                                                                                                                                      0.1s
+		     => => sha256:dde80131a1962dbd6d57b20933c4648d46cb0bb76e4ad6b54de65c2d6227749d 934B / 934B                                                                                                                                                     7.0s
+		      => => sha256:f6dd787753b28919747a6ca2ac47ca1f5bae696309b63f8be4da507cf6681439 220B / 220B                                                                                                                                                     7.0s
+		       => => extracting sha256:dde80131a1962dbd6d57b20933c4648d46cb0bb76e4ad6b54de65c2d6227749d                                                                                                                                                      0.0s
+		        => => sha256:b73fdb35f594ed257b49c4a666fc7dfb05289b41771ead420baa3c20c25c986a 13.67MB / 13.67MB                                                                                                                                               8.3s
+			 => => extracting sha256:f6dd787753b28919747a6ca2ac47ca1f5bae696309b63f8be4da507cf6681439                                                                                                                                                      0.0s
+			  => => sha256:48193100f3dd3d5c046113859b2ab492b66451f5faa0f4b2e7c9f9f200bd023b 486B / 486B                                                                                                                                                     7.1s
+			   => => sha256:0f47452b946469b77ef895a0c46efaca1b0957aad7c7f568728c81aa4bbe859a 19.50MB / 19.50MB                                                                                                                                              10.0s
+			    => => extracting sha256:b73fdb35f594ed257b49c4a666fc7dfb05289b41771ead420baa3c20c25c986a                                                                                                                                                      0.1s
+			     => => sha256:0c20e27e5283c45c9d98786db88a169b3d6a0967f50f91d19b372d3eb47c28f9 2.44kB / 2.44kB                                                                                                                                                 8.5s
+			      => => extracting sha256:48193100f3dd3d5c046113859b2ab492b66451f5faa0f4b2e7c9f9f200bd023b                                                                                                                                                      0.0s
+			       => => sha256:9d0fc3a77a24e631ed41af821f3dab1a0b4d9a3e811cd1ce25ec3c988b203b85 19.75kB / 19.75kB                                                                                                                                               8.6s
+			        => => sha256:394c37dc426f092c33723bfe5af85ca3b1dcde4616898abcefc61270b98213a3 19.75kB / 19.75kB                                                                                                                                               8.7s
+				 => => sha256:4364c568bdcdf775625a00b39a370a038a8a478b4780dacac2e6952cdca4a966 34.01MB / 34.01MB                                                                                                                                              12.4s
+				  => => sha256:093fdf7ca1176c494bef1bf27150b0e2eced9312d35c9723f4a9776eec09e2f9 256B / 256B                                                                                                                                                     8.8s
+				   => => sha256:4ef0f13b0b8af1e8dc6181d435771d9f3336bd7fef4e7886ead0168882a16404 1.65MB / 1.65MB                                                                                                                                                 9.2s
+				    => => sha256:79dd0e11b3fd86b510fff7c3447f43a296c7c82db1ca7990511c60a45a5d335e 419B / 419B                                                                                                                                                     9.3s
+				     => => sha256:fb776db318c3c538c760433ed4c26f72d46cce4df06152fdc9acce3cbb1315c7 93B / 93B                                                                                                                                                       9.5s
+				      => => extracting sha256:0f47452b946469b77ef895a0c46efaca1b0957aad7c7f568728c81aa4bbe859a                                                                                                                                                      0.4s
+				       => => extracting sha256:0c20e27e5283c45c9d98786db88a169b3d6a0967f50f91d19b372d3eb47c28f9                                                                                                                                                      0.0s
+				        => => extracting sha256:9d0fc3a77a24e631ed41af821f3dab1a0b4d9a3e811cd1ce25ec3c988b203b85                                                                                                                                                      0.0s
+					 => => extracting sha256:394c37dc426f092c33723bfe5af85ca3b1dcde4616898abcefc61270b98213a3                                                                                                                                                      0.0s
+					  => => extracting sha256:4364c568bdcdf775625a00b39a370a038a8a478b4780dacac2e6952cdca4a966                                                                                                                                                      0.8s
+					   => => extracting sha256:093fdf7ca1176c494bef1bf27150b0e2eced9312d35c9723f4a9776eec09e2f9                                                                                                                                                      0.0s
+					    => => extracting sha256:4ef0f13b0b8af1e8dc6181d435771d9f3336bd7fef4e7886ead0168882a16404                                                                                                                                                      0.0s
+					     => => extracting sha256:79dd0e11b3fd86b510fff7c3447f43a296c7c82db1ca7990511c60a45a5d335e                                                                                                                                                      0.0s
+					      => => extracting sha256:fb776db318c3c538c760433ed4c26f72d46cce4df06152fdc9acce3cbb1315c7                                                                                                                                                      0.0s
+					       => [app builder 1/7] FROM docker.io/library/php:8.2-cli@sha256:64c4c6ab08a1d3107c582968e1dd499d4e682f28c7fcf5c59405c1e10301380d                                                                                                               9.7s
+					        => => resolve docker.io/library/php:8.2-cli@sha256:64c4c6ab08a1d3107c582968e1dd499d4e682f28c7fcf5c59405c1e10301380d                                                                                                                           0.0s
+						 => => sha256:f3f6952085fdac1fa6d714200ebfa2e17c040eb2cbd102a1d9055099dd3d9f82 110.16MB / 110.16MB                                                                                                                                             6.7s
+						  => => sha256:64c4c6ab08a1d3107c582968e1dd499d4e682f28c7fcf5c59405c1e10301380d 10.30kB / 10.30kB                                                                                                                                               0.0s
+						   => => sha256:40982ef8472aee290936da86973f254ea4f8e763526db548dafa0ed4a59c6e84 2.87kB / 2.87kB                                                                                                                                                 0.0s
+						    => => sha256:c15b88344002df281868e5664d7b44d38266fd2475265a12230fee60a915d529 8.60kB / 8.60kB                                                                                                                                                 0.0s
+						     => => sha256:b2feff975e6dd2ebaf182772fb9ee26274648387b061e821e0bb5026735dd094 30.14MB / 30.14MB                                                                                                                                               3.8s
+						      => => sha256:497114a36cd6b327ee7eef6e794a0040409647d99a7df62bde3027b8c91b2327 225B / 225B                                                                                                                                                     0.5s
+						       => => sha256:1e40e6bd65c213cadb18f7ca7ad6e10494c5c835852c009f004fba53b11b711f 226B / 226B                                                                                                                                                     0.7s
+						        => => sha256:453c50a0658ab47529bdbef7dd24252dea9cc18ba75431e9bf3612edc7c85647 12.31MB / 12.31MB                                                                                                                                               4.0s
+							 => => extracting sha256:b2feff975e6dd2ebaf182772fb9ee26274648387b061e821e0bb5026735dd094                                                                                                                                                      0.8s
+							  => => sha256:52895abe3aac242355b9b3645f6bc67743cc7ea3c83167445f608902091b3012 489B / 489B                                                                                                                                                     4.0s
+							   => => sha256:f01ba070b6346c8bbf740b75b2ebf2a33a80bb48f358aa4338f8134c9de13640 19.60MB / 19.60MB                                                                                                                                               8.4s
+							    => => sha256:8ec2052fc4d5ad06655d8f8fdbfdfa53d7784003aadb3797c14ae820259c8026 2.45kB / 2.45kB                                                                                                                                                 4.2s
+							     => => sha256:7093f70fc2cd72e2adae39caecc1c2b0c518159e3e0e3baaf774b84b307d0816 249B / 249B                                                                                                                                                     4.5s
+							      => => sha256:2a0f070388ebd141bd8a9a73ea33123afc3b702a6364f7c8d2de0667c757e2a3 244B / 244B                                                                                                                                                     4.8s
+							       => => extracting sha256:497114a36cd6b327ee7eef6e794a0040409647d99a7df62bde3027b8c91b2327                                                                                                                                                      0.0s
+							        => => extracting sha256:f3f6952085fdac1fa6d714200ebfa2e17c040eb2cbd102a1d9055099dd3d9f82                                                                                                                                                      2.4s
+								 => => extracting sha256:1e40e6bd65c213cadb18f7ca7ad6e10494c5c835852c009f004fba53b11b711f                                                                                                                                                      0.0s
+								  => => extracting sha256:453c50a0658ab47529bdbef7dd24252dea9cc18ba75431e9bf3612edc7c85647                                                                                                                                                      0.0s
+								   => => extracting sha256:52895abe3aac242355b9b3645f6bc67743cc7ea3c83167445f608902091b3012                                                                                                                                                      0.0s
+								    => => extracting sha256:f01ba070b6346c8bbf740b75b2ebf2a33a80bb48f358aa4338f8134c9de13640                                                                                                                                                      0.4s
+								     => => extracting sha256:8ec2052fc4d5ad06655d8f8fdbfdfa53d7784003aadb3797c14ae820259c8026                                                                                                                                                      0.0s
+								      => => extracting sha256:7093f70fc2cd72e2adae39caecc1c2b0c518159e3e0e3baaf774b84b307d0816                                                                                                                                                      0.0s
+								       => => extracting sha256:2a0f070388ebd141bd8a9a73ea33123afc3b702a6364f7c8d2de0667c757e2a3                                                                                                                                                      0.0s
+								        => [app internal] load build context                                                                                                                                                                                                          2.2s
+									 => => transferring context: 159.15MB                                                                                                                                                                                                          2.2s
+									  => CANCELED [app builder 2/7] RUN apt-get update && apt-get install -y git unzip libzip-dev   && docker-php-ext-install zip   && rm -rf /var/lib/apt/lists/*                                                                                  8.9s
+									   => ERROR [app stage-1 2/4] RUN apt-get update && apt-get install -y unzip   && docker-php-ext-install mbstring   && rm -rf /var/lib/apt/lists/*                                                                                               8.5s
+									   ------
+									    > [app stage-1 2/4] RUN apt-get update && apt-get install -y unzip   && docker-php-ext-install mbstring   && rm -rf /var/lib/apt/lists/*:
+									    0.339 Hit:1 http://deb.debian.org/debian trixie InRelease
+									    0.358 Get:2 http://deb.debian.org/debian trixie-updates InRelease [47.3 kB]
+									    0.469 Get:3 http://deb.debian.org/debian-security trixie-security InRelease [43.4 kB]
+									    0.502 Get:4 http://deb.debian.org/debian trixie/main arm64 Packages [9605 kB]
+									    1.430 Get:5 http://deb.debian.org/debian trixie-updates/main arm64 Packages [5404 B]
+									    1.452 Get:6 http://deb.debian.org/debian-security trixie-security/main arm64 Packages [47.0 kB]
+									    2.091 Fetched 9748 kB in 2s (4936 kB/s)
+									    2.091 Reading package lists...
+									    2.411 Reading package lists...
+									    2.734 Building dependency tree...
+									    2.820 Reading state information...
+									    2.947 Suggested packages:
+									    2.947   zip
+									    2.974 The following NEW packages will be installed:
+									    2.974   unzip
+									    3.128 0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+									    3.128 Need to get 163 kB of archives.
+									    3.128 After this operation, 507 kB of additional disk space will be used.
+									    3.128 Get:1 http://deb.debian.org/debian trixie/main arm64 unzip arm64 6.0-29 [163 kB]
+									    3.247 debconf: unable to initialize frontend: Dialog
+									    3.247 debconf: (TERM is not set, so the dialog frontend is not usable.)
+									    3.247 debconf: falling back to frontend: Readline
+									    3.249 debconf: unable to initialize frontend: Readline
+									    3.249 debconf: (This frontend requires a controlling tty.)
+									    3.249 debconf: falling back to frontend: Teletype
+									    3.251 debconf: unable to initialize frontend: Teletype
+									    3.251 debconf: (This frontend requires a controlling tty.)
+									    3.251 debconf: falling back to frontend: Noninteractive
+									    3.583 Fetched 163 kB in 0s (841 kB/s)
+									    3.595 Selecting previously unselected package unzip.
+									    (Reading database ... 14758 files and directories currently installed.)
+									    3.599 Preparing to unpack .../unzip_6.0-29_arm64.deb ...
+									    3.601 Unpacking unzip (6.0-29) ...
+									    3.950 Setting up unzip (6.0-29) ...
+									    6.322 Configuring for:
+									    6.322 PHP Api Version:         20220829
+									    6.322 Zend Module Api No:      20220829
+									    6.322 Zend Extension Api No:   420220829
+									    6.633 checking for grep that handles long lines and -e... /usr/bin/grep
+									    6.634 checking for egrep... /usr/bin/grep -E
+									    6.635 checking for a sed that does not truncate output... /usr/bin/sed
+									    6.645 checking for pkg-config... /usr/bin/pkg-config
+									    6.645 checking pkg-config is at least version 0.9.0... yes
+									    6.646 checking for cc... cc
+									    6.655 checking whether the C compiler works... yes
+									    6.676 checking for C compiler default output file name... a.out
+									    6.676 checking for suffix of executables...
+									    6.693 checking whether we are cross compiling... no
+									    6.713 checking for suffix of object files... o
+									    6.723 checking whether the compiler supports GNU C... yes
+									    6.733 checking whether cc accepts -g... yes
+									    6.743 checking for cc option to enable C11 features... none needed
+									    6.769 checking how to run the C preprocessor... cc -E
+									    6.793 checking for egrep -e... (cached) /usr/bin/grep -E
+									    6.793 checking for icc... no
+									    6.797 checking for suncc... no
+									    6.802 checking for system library directory... lib
+									    6.802 checking if compiler supports -Wl,-rpath,... yes
+									    6.820 checking build system type... aarch64-unknown-linux-gnu
+									    6.822 checking host system type... aarch64-unknown-linux-gnu
+									    6.823 checking target system type... aarch64-unknown-linux-gnu
+									    6.838 checking for PHP prefix... /usr/local
+									    6.838 checking for PHP includes... -I/usr/local/include/php -I/usr/local/include/php/main -I/usr/local/include/php/TSRM -I/usr/local/include/php/Zend -I/usr/local/include/php/ext -I/usr/local/include/php/ext/date/lib
+									    6.838 checking for PHP extension directory... /usr/local/lib/php/extensions/no-debug-non-zts-20220829
+									    6.838 checking for PHP installed headers prefix... /usr/local/include/php
+									    6.838 checking if debug is enabled... no
+									    6.846 checking if zts is enabled... no
+									    6.853 checking for gawk... no
+									    6.853 checking for nawk... nawk
+									    6.853 checking if nawk is broken... no
+									    6.854 checking whether to enable multibyte string support... yes, shared
+									    6.854 checking whether to enable multibyte regex support (requires oniguruma)... yes
+									    6.854 checking for oniguruma... no
+									    6.857 configure: error: Package requirements (oniguruma) were not met:
+									    6.857
+									    6.857 Package 'oniguruma', required by 'virtual:world', not found
+									    6.857
+									    6.857 Consider adjusting the PKG_CONFIG_PATH environment variable if you
+									    6.857 installed software in a non-standard prefix.
+									    6.857
+									    6.857 Alternatively, you may set the environment variables ONIG_CFLAGS
+									    6.857 and ONIG_LIBS to avoid the need to call pkg-config.
+									    [+] Running 0/1kg-config man page for more details.
+									     ⠴ Service app  Building                                                                                                                                                                                                                      22.5s
+									     failed to solve: process "/bin/sh -c apt-get update && apt-get install -y unzip   && docker-php-ext-install mbstring   && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 1
+									     ╭─   ~/owlhacks-deploy-now-workshop on   main ?3                                                                                                                                                                    took  23s at  03:59:04 PM
+									     ╰─❯ emacs Dockerfile
+									     ╭─   ~/owlhacks-deploy-now-workshop on   main ?3                                                                                                                                                                 took  1m 19s at  04:01:44 PM
+									     ╰─❯ docker compose -f compose.local.yml build --no-cache
+
+WARN[0000] /Users/ianapplebaum/owlhacks-deploy-now-workshop/compose.local.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] Building 0/0
+[+] Building 0/1Building                                                                                                                                                                                                                       0.1s
+[+] Building 7.6s (9/16)                                                                                                                                                                                                       docker:desktop-linux
+ => [app internal] load build definition from Dockerfile                                                                                                                                                                                       0.0s
+  => => transferring dockerfile: 1.50kB                                                                                                                                                                                                         0.0s
+   => [app internal] load metadata for docker.io/library/composer:2                                                                                                                                                                              2.7s
+    => [app internal] load metadata for docker.io/library/php:8.2-cli                                                                                                                                                                             2.7s
+     => [app internal] load .dockerignore                                                                                                                                                                                                          0.0s
+      => => transferring context: 2B                                                                                                                                                                                                                0.0s
+       => CACHED [app] FROM docker.io/library/composer:2@sha256:adca13b22c7b77f7fc606353453be12ba93e0917c332b8b0fa5efe3a85bf27ab                                                                                                                     0.0s
+        => CACHED [app builder 1/7] FROM docker.io/library/php:8.2-cli@sha256:64c4c6ab08a1d3107c582968e1dd499d4e682f28c7fcf5c59405c1e10301380d                                                                                                        0.0s
+	 => [app internal] load build context                                                                                                                                                                                                          0.6s
+	  => => transferring context: 2.01MB                                                                                                                                                                                                            0.6s
+	   => CANCELED [app builder 2/7] RUN apt-get update  && apt-get install -y --no-install-recommends unzip libonig-dev  && docker-php-ext-install mbstring  && rm -rf /var/lib/apt/lists/*                                                         4.9s
+	    => ERROR [app stage-1 2/4] RUN apt-get update && apt-get install -y unzip   && docker-php-ext-install mbstring   && rm -rf /var/lib/apt/lists/*                                                                                               4.7s
+	    ------
+	     > [app stage-1 2/4] RUN apt-get update && apt-get install -y unzip   && docker-php-ext-install mbstring   && rm -rf /var/lib/apt/lists/*:
+	     0.259 Hit:1 http://deb.debian.org/debian trixie InRelease
+	     0.278 Get:2 http://deb.debian.org/debian trixie-updates InRelease [47.3 kB]
+	     0.381 Get:3 http://deb.debian.org/debian-security trixie-security InRelease [43.4 kB]
+	     0.408 Get:4 http://deb.debian.org/debian trixie/main arm64 Packages [9605 kB]
+	     0.869 Get:5 http://deb.debian.org/debian trixie-updates/main arm64 Packages [5404 B]
+	     0.895 Get:6 http://deb.debian.org/debian-security trixie-security/main arm64 Packages [47.0 kB]
+	     1.541 Fetched 9748 kB in 1s (6855 kB/s)
+	     1.541 Reading package lists...
+	     1.833 Reading package lists...
+	     2.139 Building dependency tree...
+	     2.222 Reading state information...
+	     2.327 Suggested packages:
+	     2.327   zip
+	     2.356 The following NEW packages will be installed:
+	     2.356   unzip
+	     2.428 0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+	     2.428 Need to get 163 kB of archives.
+	     2.428 After this operation, 507 kB of additional disk space will be used.
+	     2.428 Get:1 http://deb.debian.org/debian trixie/main arm64 unzip arm64 6.0-29 [163 kB]
+	     2.534 debconf: unable to initialize frontend: Dialog
+	     2.534 debconf: (TERM is not set, so the dialog frontend is not usable.)
+	     2.534 debconf: falling back to frontend: Readline
+	     2.537 debconf: unable to initialize frontend: Readline
+	     2.537 debconf: (This frontend requires a controlling tty.)
+	     2.537 debconf: falling back to frontend: Teletype
+	     2.539 debconf: unable to initialize frontend: Teletype
+	     2.539 debconf: (This frontend requires a controlling tty.)
+	     2.539 debconf: falling back to frontend: Noninteractive
+	     2.828 Fetched 163 kB in 0s (1476 kB/s)
+	     2.836 Selecting previously unselected package unzip.
+	     (Reading database ... 14758 files and directories currently installed.)
+	     2.840 Preparing to unpack .../unzip_6.0-29_arm64.deb ...
+	     2.841 Unpacking unzip (6.0-29) ...
+	     2.861 Setting up unzip (6.0-29) ...
+	     3.531 Configuring for:
+	     3.531 PHP Api Version:         20220829
+	     File Edit Options Buffers Tools Help
+	     # ---- Build stage: install Laravel with Composer
+	     FROM php:8.2-cli AS builder
+	     ENV DEBIAN_FRONTEND=noninteractive
+
+# Install deps and build mbstring (needs oniguruma headers)
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends unzip libonig-dev \
+  && docker-php-ext-install mbstring \
+   && rm -rf /var/lib/apt/lists/*
+
+# Composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+# Create project (no dev deps to keep it light)
+WORKDIR /app
+ARG LARAVEL_VERSION="^11.0"
+RUN composer create-project --no-dev --prefer-dist laravel/laravel:"${LARAVEL_VERSION}" .
+COPY . .
+# Optimize autoload and generate app key
+ENV APP_ENV=production
+RUN php artisan key:generate --ansi && php artisan config:clear && php artisan route:clear && php artisan view:clear
+
+# ---- Runtime stage: tiny PHP container serving /public on :8080
+FROM php:8.2-cli
+
+# Install only what we need (mbstring commonly used by Laravel)
+RUN apt-get update && apt-get install -y unzip \
+  && docker-php-ext-install mbstring \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY --from=builder /app /app
+
+# Healthcheck (simple: ping the root)
+HEALTHCHECK --interval=30s --timeout=3s CMD php -r "try{ echo file_get_contents('http://127.0.0.1:8080')?0:1; }catch(Exception $e){ exit(1);}";
+
+# Laravel served by PHP's built-in server (fine for workshop demos)
+EXPOSE 8080
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public", "public/index.php"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:---  F1  Dockerfile     All   L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ■  Warning (initialization): An error occurred while loading ‘/Users/ianapplebaum/.emacs.d/init.el’:
+
+error: Invalid face box, :color, #64645E, :line-width, 1, :style, unspecified
+
+To ensure normal operation, you should investigate and remove the
+cause of the error in your initialization file.  Start Emacs with
+the ‘--debug-init’ option to view a complete error backtrace.
+-UUU:%*-  F1  *Warnings*     All   L7     (Special) ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Package cl is depreca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:---  F1  Dockerfile     All   L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ■  Warning (initialization): An error occurred while loading ‘/Users/ianapplebaum/.emacs.d/init.el’:
+
+error: Invalid face box, :color, #64645E, :line-width, 1, :style, unspecified
+
+To ensure normal operation, you should investigate and remove the
+cause of the error in your initialization file.  Start Emacs with
+the ‘--debug-init’ option to view a complete error backtrace.
+-UUU:%*-  F1  *Warnings*     All   L7     (Special) ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Package cl is deprecated# ---- Build stage: install Laravel with Composer
+FROM php:8.2-cli AS builder
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install deps and build mbstring (needs oniguruma headers)
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends unzip libonig-dev \
+ && docker-php-ext-install mbstring \
+ && rm -rf /var/lib/apt/lists/*
+ 
+# Composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+# Create project (no dev deps to keep it light)
+WORKDIR /app
+ARG LARAVEL_VERSION="^11.0"
+RUN composer create-project --no-dev --prefer-dist laravel/laravel:"${LARAVEL_VERSION}" .
+COPY . .
+# Optimize autoload and generate app key
+ENV APP_ENV=production
+RUN php artisan key:generate --ansi && php artisan config:clear && php artisan route:clear && php artisan view:clear
+
+# ---- Runtime stage: tiny PHP container serving /public on :8080
+FROM php:8.2-cli
+
+# Install only what we need (mbstring commonly used by Laravel)
+RUN apt-get update && apt-get install -y unzip \
+  && docker-php-ext-install mbstring \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY --from=builder /app /app
+
+# Healthcheck (simple: ping the root)
+HEALTHCHECK --interval=30s --timeout=3s CMD php -r "try{ echo file_get_contents('http://127.0.0.1:8080')?0:1; }catch(Exception $e){ exit(1);}";
+
+# Laravel served by PHP's built-in server (fine for workshop demos)
+EXPOSE 8080
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public", "public/index.php"]
